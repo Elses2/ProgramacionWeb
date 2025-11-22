@@ -1,4 +1,3 @@
-import viteLogo from '/vite.svg'
 import './App.css'
 import ToList from './ToList.jsx'
 function App() { 
