@@ -1,0 +1,122 @@
+.tolist-container {
+  max-width: 370px;
+  margin: 36px auto;
+  padding: 20px 24px 26px 24px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 6px 28px rgba(0,0,0,0.08);
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.tolist-logo {
+  display: block;
+  margin: 0 auto 8px auto;
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+  border-radius: 50%;
+  box-shadow: 0 3px 8px rgba(51,138,243,0.13);
+}
+
+.tolist-title {
+  text-align: center;
+  margin-bottom: 2px;
+  color: #338af3;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+}
+
+.tolist-description {
+  text-align: center;
+  color: #808080;
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+
+.tolist-input-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.tolist-input {
+  flex: 1;
+  padding: 7px 12px;
+  font-size: 1rem;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.tolist-input:focus {
+  border-color: #338af3;
+}
+
+.tolist-add-btn {
+  background: #338af3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  padding: 7px 19px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.tolist-add-btn:disabled {
+  background: #b4d0fa;
+  cursor: not-allowed;
+}
+
+.tolist-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tolist-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9px 0;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.2s;
+}
+
+.tolist-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  flex: 1;
+  gap: 11px;
+}
+
+.tolist-checkbox {
+  accent-color: #338af3;
+  width: 18px;
+  height: 18px;
+  margin-bottom: 1px;
+}
+
+.tolist-task-text {
+  font-size: 1rem;
+  color: #222;
+  margin-left: 3px;
+}
+
+.tolist-delete-btn {
+  background: #ff5f56;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 0.97rem;
+  padding: 4px 12px;
+  cursor: pointer;
+  margin-left: 13px;
+  transition: background 0.2s;
+}
+
+.tolist-delete-btn:disabled {
+  background: #facccc;
+  cursor: not-allowed;
+}
