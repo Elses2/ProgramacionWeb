@@ -1,11 +1,26 @@
+@import './variables';
+
 .tolist-container {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-m;
+  padding: $spacing-m;
+  background: $bg-light;
+  min-height: 100vh;
   max-width: 370px;
   margin: 36px auto;
-  padding: 20px 24px 26px 24px;
-  background: #fff;
   border-radius: 18px;
   box-shadow: 0 6px 28px rgba(0,0,0,0.08);
-  font-family: 'Segoe UI', Arial, sans-serif;
+  font-family: $font-main;
+}
+
+@media (max-width: 768px) {
+  .tolist-container {
+    padding: $spacing-s;
+    gap: $spacing-s;
+    max-width: 100%;
+    margin: 0;
+  }
 }
 .tolist-logo {
   display: block;

@@ -1,4 +1,4 @@
-import "../../styles/ToList.css";
+import "../../styles/ToList.scss";
 import { useState } from "react";
 import { addTask, deleteTask, toggleTask } from "../../utils/taskUtils";
 import { isTaskListEmpty, getEmptyTaskListMessage } from "../../utils/MessageUtils";
